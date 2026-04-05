@@ -1,3 +1,5 @@
+import os
+os.environ["LOKY_MAX_CPU_COUNT"] = "1"
 import streamlit as st
 import tensorflow as tf
 import pickle
